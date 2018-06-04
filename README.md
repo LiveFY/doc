@@ -28,7 +28,7 @@
 
 ## Redis系列
 [Redis的安装与配置](https://github.com/OriginNull/LearningNotes/blob/master/Redis/Redis%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)<br/>
-[Redis的安装与配置](https://github.com/OriginNull/LearningNotes/blob/master/Redis/Redis%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)<br/>
+[Redis的发布订阅](https://github.com/OriginNull/LearningNotes/blob/master/Redis/Redis%E7%9A%84%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85.md)<br/>
 
 
 
