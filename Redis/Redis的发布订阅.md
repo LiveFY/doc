@@ -7,7 +7,7 @@
 SUBSCRIBE hello-channel
 ```
 ![运行结果](http://ww4.sinaimg.cn/large/87c01ec7gy1frzeoq8jthj20cn032dfp.jpg)
-此时将开启一个通道，而后利用此通道可以实现信息的沟通。
+<br/>此时将开启一个通道，而后利用此通道可以实现信息的沟通。
 
 
 
