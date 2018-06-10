@@ -4,15 +4,15 @@ Nginx最大作用：将多个web容器整合在一起使用。（使用Nginx间�
     一个nginx将代理多个Tomcat服务器，形成一个Tomcat集群存在。<br/>
 
 主要作用：<br/>
-    ① 中间的路由，转换请求到tomcat服务器,配置多个路径，而后nginx会根据负载量自动分配，可在配置文件对各个服务器配置相应的权重。
-    ② 将一些静态的数据进行缓存在nginx对应服务器，减少资源浪费。同时提供缓存清除机制。
-    ③ 提供ip_hash支持，可以提供session控制。此时如果用户通过nginx访问到一个tomcat服务器之后，则只能在一台tomcat主机上处理。
+    ① 中间的路由，转换请求到tomcat服务器,配置多个路径，而后nginx会根据负载量自动分配，可在配置文件对各个服务器配置相应的权重。<br/>
+    ② 将一些静态的数据进行缓存在nginx对应服务器，减少资源浪费。同时提供缓存清除机制。 <br/>
+    ③ 提供ip_hash支持，可以提供session控制。此时如果用户通过nginx访问到一个tomcat服务器之后，则只能在一台tomcat主机上处理。 <br/>
     
 
 **2.session管理** <br/>
-① 利用nginx提供的ip_hash支持，但只能在单台tomcat保存，此时仅仅只是将用户绑定在一台主机上。
-② 可采用将session数据（内容是map集合）保存到一个公共的空间上，所有的tomcat通过此公共空间进行读取。
-  此时可以利用redis进行session的管理，在tomcat的server.xml文件上配置，追加session管理机制（把session发送到redis服务对应的主机上）。
+① 利用nginx提供的ip_hash支持，但只能在单台tomcat保存，此时仅仅只是将用户绑定在一台主机上。  <br/>
+② 可采用将session数据（内容是map集合）保存到一个公共的空间上，所有的tomcat通过此公共空间进行读取。<br/>
+  此时可以利用redis进行session的管理，在tomcat的server.xml文件上配置，追加session管理机制（把session发送到redis服务对应的主机上）。  <br/>
   
  
 **3.HA机制**  <br/>
