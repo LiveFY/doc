@@ -31,7 +31,7 @@
 [Redis的发布订阅](https://github.com/OriginNull/LearningNotes/blob/master/Redis/Redis%E7%9A%84%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85.md)<br/>
 ### RedisTemplate接口
 [字符串操作接口ValueOperations](https://github.com/OriginNull/LearningNotes/blob/master/RedisTemplate/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C%E6%8E%A5%E5%8F%A3ValueOperations.md)<br/>
-
+[Hash操作接口HashOperations](https://github.com/OriginNull/LearningNotes/blob/master/RedisTemplate/Hash%E6%93%8D%E4%BD%9C%E6%8E%A5%E5%8F%A3HashOperations.md)<br/>
 
 ## Nginx系列
 [Nginx学习笔记](https://github.com/OriginNull/LearningNotes/blob/master/Nginx/Nginx%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
