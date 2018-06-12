@@ -1,6 +1,6 @@
 ## List操作接口ListOperations
 
-RedisTemplate中Hash操作接口ListOperations,默认实现子类DefaultListOperations
+RedisTemplate中List操作接口ListOperations,默认实现子类DefaultListOperations
 
 ![image](http://wx1.sinaimg.cn/mw690/0060lm7Tly1fs7i8f5ttnj30dd05476b.jpg)
 
