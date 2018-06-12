@@ -35,7 +35,7 @@
 [Hash操作接口HashOperations](https://github.com/OriginNull/LearningNotes/blob/master/RedisTemplate/Hash%E6%93%8D%E4%BD%9C%E6%8E%A5%E5%8F%A3HashOperations.md)<br/>
 [List操作接口ListOperations](https://github.com/OriginNull/LearningNotes/blob/master/RedisTemplate/List%E6%93%8D%E4%BD%9C%E6%8E%A5%E5%8F%A3ListOperations.md) <br/>
 [Set操作接口SetOperations](https://github.com/OriginNull/LearningNotes/blob/master/RedisTemplate/Set%E6%93%8D%E4%BD%9C%E6%8E%A5%E5%8F%A3SetOperations.md)<br/>
-
+[ZSet操作接口ZSetOperations](https://github.com/OriginNull/LearningNotes/blob/master/RedisTemplate/ZSet%E6%93%8D%E4%BD%9C%E6%8E%A5%E5%8F%A3ZSetOperations.md)<br/>
 
 
 ## Nginx系列
