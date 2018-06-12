@@ -284,3 +284,5 @@ public interface SetOperations<K, V> {
 ```
 
 
+> 以上内容部分命令和解释来自于[Redis中文官网](http://www.redis.cn/)，感谢该网站提供的命令支持。
+
