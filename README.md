@@ -69,7 +69,7 @@
 [HashMap实现原理分析](https://gitee.com/live_fit/codes/kst4och2a0n3b7vx9i18r32) <br/>
 [Unsafe类](https://gitee.com/live_fit/codes/p8x7s13e0y2mdulizjcbr33) <br/>
 [ThreadLocal类](https://gitee.com/live_fit/codes/yxrtldj8z39ngoipa21bm11) <br/>
-[]() <br/>
+[String常用方法](https://github.com/OriginNull/LearningNotes/blob/master/Java%E5%9F%BA%E7%A1%80/String.pdf) <br/>
 []() <br/>
 
 
