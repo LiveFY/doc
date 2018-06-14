@@ -18,7 +18,7 @@
 
 ## Dubbo系列
 [编译dubbo源代码](https://github.com/OriginNull/LearningNotes/blob/master/Dubbo/%E7%BC%96%E8%AF%91Dubbo%E6%BA%90%E4%BB%A3%E7%A0%81.md)<br/>
-
+[Dubbo注解配置](https://github.com/OriginNull/LearningNotes/blob/master/Dubbo/Dubbo%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE.md)<br/>
 
 
 
