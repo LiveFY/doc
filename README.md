@@ -77,8 +77,8 @@
 [Unsafe类](https://gitee.com/live_fit/codes/p8x7s13e0y2mdulizjcbr33) <br/>
 [ThreadLocal类](https://gitee.com/live_fit/codes/yxrtldj8z39ngoipa21bm11) <br/>
 [String常用方法](https://github.com/OriginNull/LearningNotes/blob/master/Java%E5%9F%BA%E7%A1%80/String.pdf) <br/>
-[]() <br/>
-
+[Base64加密](https://gitee.com/live_fit/codes/hkpuywmlv7x0rged19z3s91) <br/>
+[UUID类](https://gitee.com/live_fit/codes/4w05g12dypiazhmukc98r51)<br/>
 
 ## JavaWeb基础
 [服务器端跳转和客户端跳转的区别？](https://gitee.com/live_fit/codes/tkcqu120r4e97538w6oxd73)<br/>
