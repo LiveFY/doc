@@ -1,7 +1,7 @@
 ## Geo操作接口GeoOperations
 
 
-RedisTemplate中ZSet操作接口GeoOperations,默认实现子类DefaultGeoOperations
+RedisTemplate中Geo操作接口GeoOperations,默认实现子类DefaultGeoOperations
 ![image](http://wx3.sinaimg.cn/mw690/0060lm7Tly1fsc9fqxytbj30cg05r40q.jpg)
 
 ```
