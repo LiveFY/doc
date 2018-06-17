@@ -9,7 +9,7 @@ HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.ge
 ② 通过方法参数传递
 
 ```
-@RequestMapping("member_add")
+	@RequestMapping("member_add")
 	public void add(HttpServletRequest request,HttpServletResponse response,HttpSession session){}
 ```
 
