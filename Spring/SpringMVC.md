@@ -20,7 +20,7 @@ HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.ge
 ## 2. 关于日期类型的处理：
 
 ```
-    @InitBinder
+   	@InitBinder
 	public void initBinder(WebDataBinder binder) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd") ;
 		binder.registerCustomEditor(java.util.Date.class, new CustomDateEditor(sdf, true));	
@@ -56,7 +56,7 @@ HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.ge
 
 
 ```
-<error-page>
+		<error-page>
 			<error-code>500</error-code>
 			<location>/error.action</location>
 		</error-page>
@@ -67,7 +67,7 @@ HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.ge
 ③ 使用@ExceptionHandler注解
 
 ```
-public class TestController{
+		public class TestController{
 		@RequestMapping("show")
 		public Object show(Emp emp) {
 			if(2>1){
@@ -106,7 +106,7 @@ public class TestController{
 **@Controller**：此处表示这是一个控制器。和在配置文件上添加bean一样。同样以下四个注解可以产生相同的效果。
 
 ```
-    ●【数据层】仓库配置类：@Repository（org.springframework.stereotype.Repository）
+    	●【数据层】仓库配置类：@Repository（org.springframework.stereotype.Repository）
 	●【业务层】业务配置类：@Service（org.springframework.stereotype.Service）
 	●【工具组件】工具类配置：@Component（org.springframework.stereotype.Component）
 	●【控制层】控制层配置：@Controller（org.springframework.stereotype.Controller）
@@ -117,14 +117,14 @@ public class TestController{
 
 
 ```
-    ● value 表示需要匹配的url的格式
+   	 ● value 表示需要匹配的url的格式
 
 	● method 表示所需处理请求的http 协议(如get,post,put,delete等)
 		@RequestMapping(value = "/member/add",method = RequestMethod.POST)
 
 	● params 格式为”paramname=paramvalue” 或 “paramname!=paramvalue”。 
 		表示参数必须等于某值，或者不等于才进入此映射方法。不填写的时候表明不限制。所以当请求/testParams.do?param1=value1&param2=value2 的时候能够正确访问到该testParams 方法：
-			@RequestMapping (value= "testParams" , params={ "param1=value1" , "param2" , "!param3" })
+		    @RequestMapping (value= "testParams" , params={ "param1=value1" , "param2" , "!param3" })
 		    public String testParams() {
 		       System. out .println( "test Params..........." );
 		       return "testParams" ;
@@ -162,7 +162,7 @@ public class TestController{
 **@PathVariable**:将url中的占位符参数绑定到控制器处理方法的入参中，最好在@PathVariable中显式指定绑定的参数名，以避免因不同编译方式造成参数绑定失败。
 
 ```
-    @RequestMapping(value="/{userId}")
+        @RequestMapping(value="/{userId}")
 	public void detail(@PathVariable("userId") String userId){
 	    userService.getUserById(userId);
 	}
@@ -176,7 +176,7 @@ public class TestController{
 
 
 ```
-    @RequestMapping ( "requestParam" )
+        @RequestMapping ( "requestParam" )
 	public String testRequestParam( @RequestParam(value="name",required=false) String name, @RequestParam ("age") int age) {
 		return "requestParam" ;
 	}
@@ -186,7 +186,7 @@ public class TestController{
 **@ResponseBody**：配置jackson相关的依赖后会以json方式返回给前端
 
 ```
-    @RequestMapping("show")
+        @RequestMapping("show")
 	@ResponseBody
 	public Object show(Emp emp) {
 		return emp ;  
@@ -197,7 +197,7 @@ public class TestController{
 **@RequestBody**:用来将指定的客户端发送过来的请求参数的数据格式转换成Java实体
 
 ```
-    @RequestMapping(value = "/xxxxx.do")
+        @RequestMapping(value = "/xxxxx.do")
 	public void create(@RequestBody() String host){
 	    System.out.println("-----------" + host);
 	}
@@ -221,7 +221,7 @@ public class TestController{
 **@CookieValue**:可以把Requestheader中关于cookie的值绑定到方法的参数上。
 
 ```
-    @RequestMapping("/handle")  
+        @RequestMapping("/handle")  
  	public String handle(@CookieValue("JSESSIONID") String cookie)  {  
  	}
 ```
@@ -231,7 +231,7 @@ public class TestController{
 **@RequesetHeader**:可以将报文属性值绑定到处理方法的入参中。
 
 ```
-    @RequsetMapping("/handle")
+        @RequsetMapping("/handle")
 	public String handle(@RequestHeader("Accept-Enocoding")String encoding,@RequestHeader("Keepe-Alive")long keepAlive){}
 ```
 
@@ -245,7 +245,7 @@ public class TestController{
 **@ExceptionHandler**
 
 ```
-    @RequestMapping("/exception")
+    	 @RequestMapping("/exception")
 	 public void ExceptionTest() throws Exception{
 	    throw new Exception("i don't know");
 	 }    
@@ -272,7 +272,7 @@ public class TestController{
 > 注：在使用时可以Model和String二者可以结合，Model来存放数据，返回String(即逻辑视图)  Model的使用要从方法参数上传递下来，不要直接用new 创建。因为它是一个接口，无法直接实例化。
 
 ```
-    @RequesMapping("member_list")
+    	@RequesMapping("member_list")
 	public String list(Model model){
 		model.addAttribute("xxxx",xxxx);
 		return "member_list";  /
@@ -293,7 +293,7 @@ public class TestController{
 **ModelAndView常用方法**：
 
 ```
-    public ModelAndView()：无参构造，不跳转（Ajax请求）
+    	public ModelAndView()：无参构造，不跳转（Ajax请求）
 	设置视图名：
 		public ModelAndView(String viewName)：设置跳转路径，需要写完整路径
 		public void setViewName(String viewName)：设置跳转路径
@@ -330,7 +330,7 @@ public class TestController{
 ① 方法入参时使用：
 
 ```
-@RequestMapping("member_list")
+		@RequestMapping("member_list")
 		public String get(@ModelAttribute("user") User user){
 			this.userService.get(user.getUserId());
 			return "member_list";
