@@ -47,10 +47,11 @@
 [Geo操作接口GeoOperations](https://github.com/OriginNull/LearningNotes/blob/master/RedisTemplate/Geo%E6%93%8D%E4%BD%9C%E6%8E%A5%E5%8F%A3GeoOperations.md)<br/>
 
 ## Nginx系列
-[Nginx学习笔记](https://github.com/OriginNull/LearningNotes/blob/master/Nginx/Nginx%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+[Nginx学习笔记](https://github.com/OriginNull/LearningNotes/blob/master/Nginx/Nginx%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) <br/>
 
-
-
+## RabbitMQ系列
+[ErLang环境安装](https://github.com/OriginNull/LearningNotes/blob/master/RabbitMQ/ErLang%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.md)<br/>
+[RabbitMQ安装与配置](https://github.com/OriginNull/LearningNotes/blob/master/RabbitMQ/%E5%AE%89%E8%A3%85%E5%B9%B6%E9%85%8D%E7%BD%AERabbitMQ.md)
 
 ## jQuery
 [JSONP跨域访问](https://gitee.com/live_fit/codes/69fz4s085xgaed7jocbqu95) <br/>
