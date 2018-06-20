@@ -1,4 +1,4 @@
-> 踩坑小记：erlang的环境为19.x,对应的rabbitmq只能只能使用道3.6.x,如果想使用最新版本的rabbimq，则需要下载新版版的erlang开发包。
+> 踩坑小记：erlang的环境为19.x,对应的rabbitmq只能只能使用到3.6.x,如果想使用最新版本的rabbimq，则需要下载新版的erlang开发包。
 
 1. 将组件“rabbitmq-server-generic-unix-3.6.6.tar.xz”直接上传到linux系统之中。
 
