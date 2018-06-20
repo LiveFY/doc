@@ -16,7 +16,7 @@ public class TestUpload {
 		// 1、定义要上传的文件，如果此时不是文件利用InputStream类来处理
 		File file = new File("D:" + File.separator + "nophoto.jpg") ;
 		// 2、要想上传则需要明确的知道文件的后缀
-		String ext = "jpg" ;	// 实际的开发之中一定要自己根据上传文件拆分出后缀
+		String ext = file.getName().substring(file.getName().lastIndexOf(".")+1);
 		// 3、加载要读取的资源配置文件（通过CLASSPATH加载）
 		ClassPathResource classPathResource = new ClassPathResource("fastdfs.properties") ;
 		// 4、进行上传初始化操作
@@ -58,7 +58,7 @@ public class TestUpload1 {
 		// 1、定义要上传的文件，如果此时不是文件利用InputStream类来处理
 		File file = new File("D:" + File.separator + "nophoto.jpg");
 		// 2、要想上传则需要明确的知道文件的后缀
-		String ext = "jpg"; // 实际的开发之中一定要自己根据上传文件拆分出后缀
+		String ext = file.getName().substring(file.getName().lastIndexOf(".")+1);
 		// 3、加载要读取的资源配置文件（通过CLASSPATH加载）
 		ClassPathResource classPathResource = new ClassPathResource("fastdfs.properties");
 		// 4、进行上传初始化操作
