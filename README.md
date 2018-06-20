@@ -49,6 +49,9 @@
 ## Nginx系列
 [Nginx学习笔记](https://github.com/OriginNull/LearningNotes/blob/master/Nginx/Nginx%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md) <br/>
 
+## FastDFS系列
+[使用Java操作FastDFS](https://github.com/OriginNull/LearningNotes/blob/master/FastDFS/%E4%BD%BF%E7%94%A8Java%E6%93%8D%E4%BD%9CFastDFS.md)<br/>
+
 ## RabbitMQ系列
 [ErLang环境安装](https://github.com/OriginNull/LearningNotes/blob/master/RabbitMQ/ErLang%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85.md)<br/>
 [RabbitMQ安装与配置](https://github.com/OriginNull/LearningNotes/blob/master/RabbitMQ/%E5%AE%89%E8%A3%85%E5%B9%B6%E9%85%8D%E7%BD%AERabbitMQ.md)
