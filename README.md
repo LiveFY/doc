@@ -24,7 +24,7 @@
 
 
 ## Netty系列
-[基于Netty实现的ehco程序](https://github.com/OriginNull/LearningNotes/blob/master/Netty/Netty%E5%AE%9E%E7%8E%B0%E7%9A%84Echo%E7%A8%8B%E5%BA%8F.md)
+[基于Netty实现的ehco程序](https://github.com/OriginNull/LearningNotes/blob/master/Netty/Netty%E5%AE%9E%E7%8E%B0%E7%9A%84Echo%E7%A8%8B%E5%BA%8F.md)<br/>
 
 ## MyBatis系列
 [Druid连接池](https://github.com/OriginNull/LearningNotes/blob/master/MyBatis/Druid%E8%BF%9E%E6%8E%A5%E6%B1%A0.md) <br/>
@@ -69,10 +69,10 @@
 
 ### Java中的单例设计
 [单例设计懒汉式实现](https://gitee.com/live_fit/codes/xaspmhbg13k5jodwnlze021) <br/>
-[单例设计饿汉式实现](https://gitee.com/live_fit/codes/dtj7am0ursyqfv5wpkbc387) 
+[单例设计饿汉式实现](https://gitee.com/live_fit/codes/dtj7am0ursyqfv5wpkbc387) <br/>
 
 ### 适配器设计模式
-[适配器设计模式](https://gitee.com/live_fit/codes/floysdiw83k0bg1azhmru42)
+[适配器设计模式](https://gitee.com/live_fit/codes/floysdiw83k0bg1azhmru42) <br/>
 
 ### Java中的工厂设计
 [基于反射的动态工厂](https://gitee.com/live_fit/codes/oq9rgexc26vn5dhzy7jaf32)<br/>
