@@ -29,6 +29,7 @@
 ## MyBatis系列
 [Druid连接池](https://github.com/OriginNull/LearningNotes/blob/master/MyBatis/Druid%E8%BF%9E%E6%8E%A5%E6%B1%A0.md) <br/>
 [查询接口方法设计](https://github.com/OriginNull/LearningNotes/blob/master/MyBatis/%E6%9F%A5%E8%AF%A2%E6%8E%A5%E5%8F%A3%E6%96%B9%E6%B3%95%E8%AE%BE%E8%AE%A1.md)<br/>
+[多条件模糊查询](https://github.com/OriginNull/LearningNotes/blob/master/MyBatis/%E5%A4%9A%E6%9D%A1%E4%BB%B6%E6%A8%A1%E7%B3%8A%E6%9F%A5%E8%AF%A2.md)<br/>
 
 
 
