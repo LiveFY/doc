@@ -25,6 +25,8 @@
 
 ## Netty系列
 [基于Netty实现的ehco程序](https://github.com/OriginNull/LearningNotes/blob/master/Netty/Netty%E5%AE%9E%E7%8E%B0%E7%9A%84Echo%E7%A8%8B%E5%BA%8F.md)<br/>
+[基于Tomcat的WebSocket](https://github.com/OriginNull/LearningNotes/blob/master/Netty/WebSocket.md)
+
 
 ## MyBatis系列
 [Druid连接池](https://github.com/OriginNull/LearningNotes/blob/master/MyBatis/Druid%E8%BF%9E%E6%8E%A5%E6%B1%A0.md) <br/>
