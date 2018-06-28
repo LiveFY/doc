@@ -384,4 +384,10 @@ HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.ge
 
 > 注：如果字符串带有“forward:”或“redirect:”前缀，则SpringMVC会对它们进行特殊处理：将“forward:”和“redirect:”当成提示符，其后的字符作为URL处理。redirect会让浏览器重新发起一个请求，而forward请求与当前请求同属一个请求。
 
+## 8.关于日志的处理
+①可以利用AOP做一个切面进行处理。
+②做一个专门的日志业务处理类，每次进行操作都会去进行控制。
 
+## 9.关于后缀
+使用.html后缀，一方面用户不能通过url直接知道我们采用了何种服务器端的技术；另一方面，.html是静态网页的后缀，可以骗过搜索引擎，增加被收录的几率。
+对于那些无任何动态处理的网页，可以使用.htm进行区分，以避免被框架捕获。
