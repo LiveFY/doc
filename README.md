@@ -91,7 +91,7 @@
 [String常用方法](https://github.com/OriginNull/LearningNotes/blob/master/Java%E5%9F%BA%E7%A1%80/String.pdf) <br/>
 [Base64加密](https://gitee.com/live_fit/codes/hkpuywmlv7x0rged19z3s91) <br/>
 [UUID类](https://gitee.com/live_fit/codes/4w05g12dypiazhmukc98r51)<br/>
-
+[浅析VO、DTO、DO、PO的概念、区别和用处](https://github.com/OriginNull/LearningNotes/blob/master/Java%E5%9F%BA%E7%A1%80/%E6%B5%85%E6%9E%90VO%E3%80%81DTO%E3%80%81DO%E3%80%81PO%E7%9A%84%E6%A6%82%E5%BF%B5%E3%80%81%E5%8C%BA%E5%88%AB%E5%92%8C%E7%94%A8%E5%A4%84.md) <br/>
 ## JavaWeb基础
 [服务器端跳转和客户端跳转的区别？](https://gitee.com/live_fit/codes/tkcqu120r4e97538w6oxd73)<br/>
 [Cookie与Session的区别？](https://gitee.com/live_fit/codes/zlyq61cnh74m23dpkwgas22)<br/>
