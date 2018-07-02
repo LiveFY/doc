@@ -96,4 +96,4 @@
 [服务器端跳转和客户端跳转的区别？](https://gitee.com/live_fit/codes/tkcqu120r4e97538w6oxd73)<br/>
 [Cookie与Session的区别？](https://gitee.com/live_fit/codes/zlyq61cnh74m23dpkwgas22)<br/>
 [HTTP状态码及头信息](https://gitee.com/live_fit/codes/i584a0v9er6jztfh2l7bc99)<br/>
-
+[HTTP请求与响应信息详解](https://github.com/OriginNull/LearningNotes/blob/master/JavaWeb/HTTP%E8%AF%B7%E6%B1%82%E4%B8%8E%E5%93%8D%E5%BA%94%E4%BF%A1%E6%81%AF%E8%AF%A6%E8%A7%A3.pdf)<br/>
