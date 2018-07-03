@@ -6,22 +6,19 @@
 
 ### (1)CrudRepository接口
 在CrudRepository子接口里面定义有如下的一些方法：(11个)
-
 ```
-No.	              方法	  											类型	               描述
-1	public	<S extends T> S save(S entity);							普通			追加单个的实体对象
-2	public	<S extends T> Iterable<S> saveAll(Iterable<S> entities);普通	实现数据批量增加，需要传递List、Set集合
-3	public 	Optional<T> findById(ID id);							普通			根据ID进行查询
-4	public	boolean existsById(ID id);								普通			判断当前的ID是否存在
-5	public	Iterable<T> findAll();									普通			返回全部的查询结果
-6	public	Iterable<T> findAllById(Iterable<ID> ids);				普通			得到部分的查询结果
-7	public	long count();											普通			取得全部数据量
-8	public	void deleteById(ID id);									普通			根据id删除
-9	public	void delete(T entity);									普通			直接根据实体对象删除
-10	public	void deleteAll(Iterable<? extends T> entities);			普通			删除一堆实体
-11	public	void deleteAll();										普通			清空数据表
+1	public	<S extends T> S save(S entity);	追加单个的实体对象
+2	public	<S extends T> Iterable<S> saveAll(Iterable<S> entities);实现数据批量增加，需要传递List、Set集合
+3	public 	Optional<T> findById(ID id);根据ID进行查询
+4	public	boolean existsById(ID id);	判断当前的ID是否存在
+5	public	Iterable<T> findAll();	返回全部的查询结果
+6	public	Iterable<T> findAllById(Iterable<ID> ids);	得到部分的查询结果
+7	public	long count();	取得全部数据量
+8	public	void deleteById(ID id);	根据id删除
+9	public	void delete(T entity);	直接根据实体对象删除
+10	public	void deleteAll(Iterable<? extends T> entities);	删除一堆实体
+11	public	void deleteAll(); 删除全部
 ```
-
 
 > 注意：在进行删除的时候会先进行查询，会影响效率，所以建议自己写sql实现。
 
@@ -30,9 +27,8 @@ No.	              方法	  											类型	               描述
 在PagingAndSortingRepository子接口之中定义的方法：
 
 ```
-No.	                   	方法			 			类型	               描述
-1	public	Iterable<T> findAll(Sort sort);			普通	需要设置一个排序的类
-2	public	Page<T> findAll(Pageable pageable);		普通	需要将所有的内容设置到Pageable类
+1	public	Iterable<T> findAll(Sort sort);	需要设置一个排序的类
+2	public	Page<T> findAll(Pageable pageable);需要将所有的内容设置到Pageable类
 ```
 
 ### (3)JpaRepositor接口
