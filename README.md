@@ -37,6 +37,8 @@
 
 ## JPA系列
 [锁机制](https://github.com/OriginNull/LearningNotes/blob/master/JPA/%E9%94%81%E6%9C%BA%E5%88%B6.md)<br/>
+[SpringDataJPA](https://github.com/OriginNull/LearningNotes/blob/master/JPA/SpringDataJPA.md)<br/>
+
 
 ## Redis系列
 [Redis的安装与配置](https://github.com/OriginNull/LearningNotes/blob/master/Redis/Redis%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)<br/>
