@@ -1,8 +1,8 @@
 ## 核心接口：<br/>
-	**Repository**：仅仅只是一个标识接口，没有任何方法，方便Spring自动扫描识别<br/>
-	**CrudRepository**：继承Repository，实现一组CRUD相关的方法 <br/>
-	**PagingAndSortingRepositor**y：继承CrudRepository，实现了一组分页排序相关的方法  <br/>
-	**JpaRepository**：继承PagingAndSortingRepository，实现一组JPA规范相关的方法。 <br/>
+	Repository：仅仅只是一个标识接口，没有任何方法，方便Spring自动扫描识别<br/>
+	CrudRepository：继承Repository，实现一组CRUD相关的方法 <br/>
+	PagingAndSortingRepository：继承CrudRepository，实现了一组分页排序相关的方法  <br/>
+	JpaRepository：继承PagingAndSortingRepository，实现一组JPA规范相关的方法。 <br/>
 
 ### (1)CrudRepository接口
 在CrudRepository子接口里面定义有如下的一些方法：(11个)
