@@ -17,6 +17,7 @@
 [@Resource与@Autowired注解的区别？](https://gitee.com/live_fit/codes/hclk3ejdzxpqswgoi9abn17)<br/>
 [SpringCache](https://github.com/OriginNull/LearningNotes/blob/master/Spring/SpringCache.md)  <br/>
 [SpringMVC](https://github.com/OriginNull/LearningNotes/blob/master/Spring/SpringMVC.md)<br/>
+[动态定时任务处理分析](https://github.com/OriginNull/SolrIndexControl/blob/master/README.md)<br/>
 
 ## Dubbo系列
 [编译dubbo源代码](https://github.com/OriginNull/LearningNotes/blob/master/Dubbo/%E7%BC%96%E8%AF%91Dubbo%E6%BA%90%E4%BB%A3%E7%A0%81.md)<br/>
