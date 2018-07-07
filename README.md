@@ -7,6 +7,8 @@
 
 
 ## SpringBoot系列
+[错误页处理](https://github.com/OriginNull/LearningNotes/blob/master/SpringBoot/%E9%94%99%E8%AF%AF%E9%A1%B5%E5%A4%84%E7%90%86.md)<br/>
+
 
 
 ## Spring系列
