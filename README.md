@@ -98,7 +98,7 @@
 [Base64加密](https://gitee.com/live_fit/codes/hkpuywmlv7x0rged19z3s91) <br/>
 [UUID类](https://gitee.com/live_fit/codes/4w05g12dypiazhmukc98r51)<br/>
 [浅析VO、DTO、DO、PO的概念、区别和用处](https://github.com/OriginNull/LearningNotes/blob/master/Java%E5%9F%BA%E7%A1%80/%E6%B5%85%E6%9E%90VO%E3%80%81DTO%E3%80%81DO%E3%80%81PO%E7%9A%84%E6%A6%82%E5%BF%B5%E3%80%81%E5%8C%BA%E5%88%AB%E5%92%8C%E7%94%A8%E5%A4%84.md) <br/>
-(UUID类)[https://gitee.com/live_fit/codes/4w05g12dypiazhmukc98r51]<br/>
+
 
 
 ## JavaWeb基础
@@ -106,3 +106,5 @@
 [Cookie与Session的区别？](https://gitee.com/live_fit/codes/zlyq61cnh74m23dpkwgas22)<br/>
 [HTTP状态码及头信息](https://gitee.com/live_fit/codes/i584a0v9er6jztfh2l7bc99)<br/>
 [HTTP请求与响应信息详解](https://github.com/OriginNull/LearningNotes/blob/master/JavaWeb/HTTP%E8%AF%B7%E6%B1%82%E4%B8%8E%E5%93%8D%E5%BA%94%E4%BF%A1%E6%81%AF%E8%AF%A6%E8%A7%A3.pdf)<br/>
+[Tomcat内存调整策略](https://gitee.com/live_fit/codes/ecwfhgj8tlmu2z50kqsvb92)<br/>
+
