@@ -1,6 +1,10 @@
 # LearnningNotes
 日常学习知识总结
 
+## Hadoop系列
+[Hadoop基础(HDFS)](https://github.com/OriginNull/LearningNotes/blob/master/Hadoop/Hadoop%E5%9F%BA%E7%A1%80(HDFS).md)<br/>
+
+
 ## SpringCloud系列
 
 
