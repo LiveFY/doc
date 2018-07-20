@@ -1,5 +1,9 @@
 # LearnningNotes
 日常学习知识总结
+## 开发心得
+[关于业务异常的处理实践](https://github.com/OriginNull/LearningNotes/blob/master/%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97/%E5%85%B3%E4%BA%8E%E4%B8%9A%E5%8A%A1%E5%BC%82%E5%B8%B8%E7%9A%84%E5%A4%84%E7%90%86%E5%AE%9E%E8%B7%B5.md)<br/>
+
+
 
 ## Hadoop系列
 [Hadoop基础(HDFS)](https://github.com/OriginNull/LearningNotes/blob/master/Hadoop/Hadoop%E5%9F%BA%E7%A1%80(HDFS).md)<br/>
