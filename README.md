@@ -7,7 +7,7 @@
 
 ## Hadoop系列
 [Hadoop基础(HDFS)](https://github.com/OriginNull/LearningNotes/blob/master/Hadoop/Hadoop%E5%9F%BA%E7%A1%80(HDFS).md)<br/>
-
+[Hive分析工具](https://github.com/OriginNull/LearningNotes/blob/master/Hadoop/Hive.md)<br/>
 
 ## SpringCloud系列
 
