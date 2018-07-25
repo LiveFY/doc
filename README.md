@@ -111,6 +111,8 @@
 [UUID类](https://gitee.com/live_fit/codes/4w05g12dypiazhmukc98r51)<br/>
 [浅析VO、DTO、DO、PO的概念、区别和用处](https://github.com/OriginNull/LearningNotes/blob/master/Java%E5%9F%BA%E7%A1%80/%E6%B5%85%E6%9E%90VO%E3%80%81DTO%E3%80%81DO%E3%80%81PO%E7%9A%84%E6%A6%82%E5%BF%B5%E3%80%81%E5%8C%BA%E5%88%AB%E5%92%8C%E7%94%A8%E5%A4%84.md) <br/>
 
+## 数据库
+[索引的妙用](https://github.com/OriginNull/LearningNotes/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/%E7%B4%A2%E5%BC%95%E7%9A%84%E5%A6%99%E7%94%A8.md)<br/>
 
 
 ## JavaWeb基础
