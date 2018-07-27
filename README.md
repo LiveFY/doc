@@ -3,6 +3,8 @@
 ## 开发心得
 [关于业务异常的处理实践](https://github.com/OriginNull/LearningNotes/blob/master/%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97/%E5%85%B3%E4%BA%8E%E4%B8%9A%E5%8A%A1%E5%BC%82%E5%B8%B8%E7%9A%84%E5%A4%84%E7%90%86%E5%AE%9E%E8%B7%B5.md)<br/>
 
+## 数据库
+[索引的妙用](https://github.com/OriginNull/LearningNotes/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/%E7%B4%A2%E5%BC%95%E7%9A%84%E5%A6%99%E7%94%A8.md)<br/>
 
 
 ## Hadoop系列
@@ -110,9 +112,6 @@
 [Base64加密](https://gitee.com/live_fit/codes/hkpuywmlv7x0rged19z3s91) <br/>
 [UUID类](https://gitee.com/live_fit/codes/4w05g12dypiazhmukc98r51)<br/>
 [浅析VO、DTO、DO、PO的概念、区别和用处](https://github.com/OriginNull/LearningNotes/blob/master/Java%E5%9F%BA%E7%A1%80/%E6%B5%85%E6%9E%90VO%E3%80%81DTO%E3%80%81DO%E3%80%81PO%E7%9A%84%E6%A6%82%E5%BF%B5%E3%80%81%E5%8C%BA%E5%88%AB%E5%92%8C%E7%94%A8%E5%A4%84.md) <br/>
-
-## 数据库
-[索引的妙用](https://github.com/OriginNull/LearningNotes/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/%E7%B4%A2%E5%BC%95%E7%9A%84%E5%A6%99%E7%94%A8.md)<br/>
 
 
 ## JavaWeb基础
