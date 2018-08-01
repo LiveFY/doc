@@ -119,5 +119,6 @@
 [Cookie与Session的区别？](https://gitee.com/live_fit/codes/zlyq61cnh74m23dpkwgas22)<br/>
 [HTTP状态码及头信息](https://gitee.com/live_fit/codes/i584a0v9er6jztfh2l7bc99)<br/>
 [HTTP请求与响应信息详解](https://github.com/OriginNull/LearningNotes/blob/master/JavaWeb/HTTP%E8%AF%B7%E6%B1%82%E4%B8%8E%E5%93%8D%E5%BA%94%E4%BF%A1%E6%81%AF%E8%AF%A6%E8%A7%A3.pdf)<br/>
+[http协议中的无状态指的是什么？](https://github.com/OriginNull/LearningNotes/blob/master/JavaWeb/http%E5%8D%8F%E8%AE%AE%E4%B8%AD%E7%9A%84%E6%97%A0%E7%8A%B6%E6%80%81%E6%8C%87%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88.md)
 [Tomcat内存调整策略](https://gitee.com/live_fit/codes/ecwfhgj8tlmu2z50kqsvb92)<br/>
 
